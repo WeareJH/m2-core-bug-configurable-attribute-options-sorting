@@ -1,0 +1,16 @@
+{
+  "name": "wearejh/m2-core-bug-configurable-attribute-options-sorting",
+  "description": "JH M2 Core Bug Fix - Configurable products attribute options are not sorted on the FE",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Jh\\CoreBugConfigurableAttributeOptionsSorting\\": ""
+    }
+  }
+}
